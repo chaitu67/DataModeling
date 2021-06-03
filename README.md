@@ -4,3 +4,10 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 ## prerequisite :
 * Install pyspark on the local system
 * Linux operating system on the local system
+
+## Topics Covered :
+* Insights into diffrent types of data sources
+* Parsing nested json files using pyspark
+* Transfroming data using spark sql
+* Constructing a datawarehouse from tranformed data.
+* Demo on AWS EMR using Hive as the metastore on HDFS
