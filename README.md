@@ -11,3 +11,11 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 * Transfroming data using spark sql
 * Constructing a datawarehouse from tranformed data.
 * Demo on AWS EMR using Hive as the metastore on HDFS
+
+## HDFS Commands :
+* List Directories 
+  * hdfs dfs -ls
+* Make new directory
+  * hdfs dfs -mkdir "path/pathname"
+* Put file in directory
+  * hdfs dfs -put "localfile/path" "HDFS directory/pathname"
