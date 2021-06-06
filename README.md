@@ -18,7 +18,7 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 
 ### Parsing nested json files using pyspark :
 ###### Instantiate a Spark Session :
-<addr> spark.
+`<addr>` spark.
 
 
 ### Insights into diffrent types of data sources:
