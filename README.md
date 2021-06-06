@@ -1,5 +1,9 @@
-# DataModeling
+# ETL Framework Explained:
 The goal of this repo is to give an understanding of how to use pyspark and spark sql to transform raw data to information.Using diffrent techniques as part of the process.This can either be done on AWS EMR using pyspark,HDFS and Apache Hive or On local system having  pyspark,spark sql and local file system,Both these methodologies will be discussed here.
+
+## To Install :
+* Install pyspark on the local system
+* Linux operating system on the local system
 
 ## Prerequisite :
 * Install pyspark on the local system
@@ -11,6 +15,15 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 * Transfroming data using spark sql
 * Constructing a datawarehouse from tranformed data.
 * Demo on AWS EMR using Hive as the metastore on HDFS
+
+### Insights into diffrent types of data sources:
+###### Storage file type :
+*Parquet,CSV,AVRO,JSON
+###### Storage system :
+* Localfile system
+* HDFS
+* AWS S3
+
 
 ## HDFS Commands :
 
