@@ -17,8 +17,8 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 * Demo on AWS EMR using Hive as the metastore on HDFS
 
 ### Parsing nested json files using pyspark :
-###### Instantiate a Spark Session :
-`<addr>` spark.
+##### Instantiate a Spark Session :
+
 
 
 ### Insights into diffrent types of data sources:
