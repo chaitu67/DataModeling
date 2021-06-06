@@ -14,21 +14,21 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 
 ## HDFS Commands :
 
-*hdfs dfs -ls "pathname"
-*hdfs dfs -mkdir "path/pathname"
-*hdfs dfs -put "localfile/path" "HDFS directory/pathname"
-*sudo -u hdfs hadoop fs -chown root /home/hadoop/
-*sudo -u hdfs hadoop fs -put "/home/hadoop/test.json" "/home/hadoop/"
+* hdfs dfs -ls "pathname"
+* hdfs dfs -mkdir "path/pathname"
+* hdfs dfs -put "localfile/path" "HDFS directory/pathname"
+* sudo -u hdfs hadoop fs -chown root /home/hadoop/
+* sudo -u hdfs hadoop fs -put "/home/hadoop/test.json" "/home/hadoop/"
 
 ## Hive Commands :
-*Create database etl;
+* Create database etl;
 
 ## Pyspark Commands :
-*df=spark.read.json("/home/hadoop/test.json")
-*df.registerTempTable("test")
-*df.repartition(6).write.mode("overwrite").save('hdfs://ip-10-0-2-82.ec2.internal:8020/home/hadoop/etl/trans/', "parquet")
-*spark.sql("alter table etl.trans set location 'hdfs://ip-10-0-2-82.ec2.internal:8020/home/hadoop/etl/trans'")
-*df=spark.sql("""select payload.Items[0]['itemid'] as item_id,
+* df=spark.read.json("/home/hadoop/test.json")
+* df.registerTempTable("test")
+* df.repartition(6).write.mode("overwrite").save('hdfs://ip-10-0-2-82.ec2.internal:8020/home/hadoop/etl/trans/', "parquet")
+* spark.sql("alter table etl.trans set location 'hdfs://ip-10-0-2-82.ec2.internal:8020/home/hadoop/etl/trans'")
+* df=spark.sql("""select payload.Items[0]['itemid'] as item_id,
         payload.Items[0]['itemname'] as item_name,
         payload.Items[0]['itemprice']as item_price,
         payload.Items[0]['quantity'] as quantity
