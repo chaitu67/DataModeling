@@ -16,6 +16,11 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 * Constructing a datawarehouse from tranformed data.
 * Demo on AWS EMR using Hive as the metastore on HDFS
 
+### Parsing nested json files using pyspark :
+###### Instantiate a Spark Session :
+<addr> spark.
+
+
 ### Insights into diffrent types of data sources:
 ###### Storage file type :
 *Parquet,CSV,AVRO,JSON
