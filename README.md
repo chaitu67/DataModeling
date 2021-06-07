@@ -20,6 +20,7 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 
 ## Parsing nested json files using pyspark :
 ##### Instantiate a Spark Session :
+`spark.sql`
 
 ##### Read Json as a spark dataframe:
 
