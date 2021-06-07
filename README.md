@@ -20,15 +20,17 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 
 ## Parsing nested json files using pyspark :
 ##### Instantiate a Spark Session :
-`spark.sql`
+`spark = SparkSession.builder.appName('abc').getOrCreate()`
 
 ##### Read Json as a spark dataframe:
+`df=spark.read.json("/Users/chaitanyavarmamudundi/test.json")`
 
 ##### Resgister as Temp table:
+`df.registerTempTable("test")`
 
 
 ##### Parse Temp table using spark SQL
-
+`spark.sql(""" select * from test """).show()`
 
 
 ## Transfroming data using spark sql
