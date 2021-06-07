@@ -23,7 +23,7 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 `spark = SparkSession.builder.appName('abc').getOrCreate()`
 
 ##### Read Json as a spark dataframe:
-`df=spark.read.json("/Users/chaitanyavarmamudundi/test.json")`
+`df=spark.read.json("~/test.json")`
 
 ##### Resgister as Temp table:
 `df.registerTempTable("test")`
