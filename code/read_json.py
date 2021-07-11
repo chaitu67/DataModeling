@@ -50,4 +50,10 @@ dim_payment=df_transformed.select("paymentid","paymenttype","subtotal","totalpri
 
 #perfom analytics
 
-#
+#which item is the most sold item ?
+
+
+#which item has high revenue ?
+
+
+#which category has most sales ?
