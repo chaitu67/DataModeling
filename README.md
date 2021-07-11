@@ -15,7 +15,7 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 * Linux operating system on the local system
 
 ## Prerequisite :
-* Install pyspark on the local system
+* Install pyspark3.1 on the local system
 * Linux operating system on the local system
 
 ## Topics Covered :
@@ -38,7 +38,7 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 `spark = SparkSession.builder.appName('abc').getOrCreate()`
 
 ##### Read Json as a spark dataframe:
-`df=spark.read.json("~/test.json")`
+`df=spark.read.json("./files/")`
 
 ##### Resgister as Temp table:
 `df.registerTempTable("test")`
@@ -76,8 +76,8 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 ## Pyspark Commands :
 * df=spark.read.json("/home/hadoop/test.json")
 * df.registerTempTable("test")
-* df.repartition(6).write.mode("overwrite").save('hdfs://ip-10-0-2-82.ec2.internal:8020/home/hadoop/etl/trans/', "parquet")
-* spark.sql("alter table etl.trans set location 'hdfs://ip-10-0-2-82.ec2.internal:8020/home/hadoop/etl/trans'")
+* df.repartition(6).write.mode("overwrite").save('path', "parquet")
+* spark.sql("alter table etl.trans set location 'path'")
 * df=spark.sql("""select payload.Items[0]['itemid'] as item_id,
         payload.Items[0]['itemname'] as item_name,
         payload.Items[0]['itemprice']as item_price,
