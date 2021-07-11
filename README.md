@@ -11,7 +11,7 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
 
 
 ## To Install :
-* Install pyspark on the local system
+* Install pyspark on the local system : https://pypi.org/project/pyspark/
 * Linux operating system on the local system
 
 ## Prerequisite :
