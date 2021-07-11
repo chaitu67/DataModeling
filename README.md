@@ -4,7 +4,7 @@ Role of a Data engineer from customer to Website and analytics.
 
 <img width="948" alt="image" src="https://user-images.githubusercontent.com/14869837/124615169-61d20780-de4b-11eb-911e-7f2563dd1b4d.png">
 
-# ETL Framework Explained:
+# Framework Explained:
 The goal of this repo is to give an understanding of how to use pyspark and spark sql to transform raw data to information.Using diffrent techniques as part of the process.This can either be done on AWS EMR using pyspark,HDFS and Apache Hive or On local system having  pyspark,spark sql and local file system,Both these methodologies will be discussed here.
 
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/14869837/124387685-e1c66900-dcb5-11eb-9cc5-f58c8d3fa8a3.png">
