@@ -1,0 +1,11 @@
+{"timestamp": "1622732106",
+ "payload": {"Transactionid" : 1, "transactiontimestamp" : "1622732106",
+             "Items": [
+               {"itemid": "1", "itemname": "apples", "category": "fruits","quantity": "6", "itemprice" : "2.00"}, 
+               {"itemid": "2", "itemname": "white bread", "category": "breads","quantity": "6", "itemprice" : "3.00"}, 
+               {"itemid": "3", "itemname": "oranges", "category": "fruits","quantity": "6", "itemprice" : "3.00"}
+             ], 
+             "subtotal": "48.00", 
+             "paymentinfo": {"paymentid":"100","paymenttype" : "Cash", "totalprice": "55.2"}
+            }
+}
