@@ -83,3 +83,13 @@ The goal of this repo is to give an understanding of how to use pyspark and spar
         payload.Items[0]['itemprice']as item_price,
         payload.Items[0]['quantity'] as quantity
         from test""")
+        
+## Topics of intrest :
+
+* Big Data
+* Kafka
+* Blockchain
+* Devops
+* Machine Learning
+
+
